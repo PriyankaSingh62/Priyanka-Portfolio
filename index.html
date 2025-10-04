@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priyanka Singh - Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">
+      
+        <nav>
+            <ul>
+                <li><a href="index.html" onclick="handleNavClick(event, 'index.html')">Home</a></li>
+                <li><a href="intro.html" onclick="handleNavClick(event, 'intro.html')">My Intro</a></li>
+                <li><a href="services.html" onclick="handleNavClick(event, 'services.html')">Services</a></li>
+                <li><a href="cv.html" onclick="handleNavClick(event, 'cv.html')">CV</a></li>
+                <li><a href="blog.html" onclick="handleNavClick(event, 'blog.html')">Blog</a></li>
+            </ul>
+        </nav>   
+
+    </div>
+    <div class="main">
+         <div class="infocontainer">
+            <div class="devinfo">
+               <div class="hello">Hi I am </div>
+               <div class="name">Priyanka Singh</div>
+               <div class="about">A web developer with a passion for creating beautiful and functional websites. 
+                 I have experience in HTML, CSS, JavaScript, and React.
+                  I am always looking for new challenges and opportunities to grow my skills.</div>
+               
+               <div class="buttons">
+                  <button onclick="window.open('cv.html', '_blank')">Download CV</button>
+                  <button onclick="window.open('mailto:priyan07555@gmail.com', '_blank')">Contact Me</button>
+               </div>
+            </div>
+            <div class="devpic"><img src="dev.png" alt="Priyanka Singh"></div>
+         </div>
+    </div>
+  </div>
+</body>
+<script src="index.js"></script>
+</html>
